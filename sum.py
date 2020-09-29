@@ -7,5 +7,8 @@ def sum(a,b):
 def mul(a,b):
     m=a*b
     return(m)
-print("sum:", sum(a,b),"multiple:", mul(a,b))
+def sub(a,b):
+    s=a-b
+    return(s)
+print("sum:", sum(a,b),"multiple:", mul(a,b),"subtraction", sub(a,b))
 
