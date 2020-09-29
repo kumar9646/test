@@ -4,5 +4,8 @@ b = int(input("enter second number: "))
 def sum(a,b):
     s=a+b
     return(s)
-print("sum:", sum(a,b))
+def mul(a,b):
+    m=a*b
+    return(m)
+print("sum:", sum(a,b),"multiple:", mul(a,b))
 
